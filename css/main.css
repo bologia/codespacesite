@@ -1,0 +1,34 @@
+@font-face{
+    font-family: "Ageo";
+    src: url("ageo.otf");
+}
+
+@font-face{
+    font-family: "AgeoB";
+    src: url("ageoB.otf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+    font-family: "Ageo";
+}
+
+h1{
+    font-family: "AgeoB";
+}
+
+.main-nav{
+    position: fixed;
+    width: 325px;
+    height: 100%;
+    background: white;
+}
+
+main{
+    margin-left: 325px;
+    width: calc(100% - 325px);
+    height: 5000px;
+    /* background: yellow; */
+}
