@@ -13,6 +13,8 @@ main .s1{
     width: 400px;
     overflow: hidden;
     border: none;
+    color: white;
+    background: rgba(0,0,0,.5);
 }
 
 .btn-home {
