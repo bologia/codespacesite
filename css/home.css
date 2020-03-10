@@ -1,28 +1,43 @@
 main .s1{
-    background: #0f1129;
+    background-image: url("../img/home-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    /* background: #0f1129; */
     color: black;
     height: 100vh;
     width: 100%;
 }
 
-.card-deck{
-    height: 600px;
+.card-home{
+    height: 525px;
     width: 400px;
+    overflow: hidden;
+    border: none;
 }
 
-.btn-circle.btn-xl {
-    width: 90px;
-    height: 90px;
-    /* padding: 10px 16px; */
-    font-size: 18px;
-    /* line-height: 1.33; */
-    border-radius: 45px;
+.btn-home {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto; /* ça va à droite en fait ça */
+    margin-right: -30px;
+    margin-bottom: -30px;
+    -moz-transition: .8s;
+    -webkit-transition: .8s;
+    position: relative;
 }
 
-{
-    /* background: #D24D57;
-    -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-    -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
-    transform: translateX(-50%) translateY(-50%) rotate(25deg); */
+.btn-home i {
+    position: absolute;
+    font-size: 30px;
+    top: 25px;
+    left: 25px;
 }
+
+/* enlever le contour qd on clique bouton */
+
+.btn-home:hover {
+    width: 125px;
+    height: 125px;
+}
+
