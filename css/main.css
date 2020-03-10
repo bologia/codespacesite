@@ -13,22 +13,53 @@ body{
     padding: 0;
     background: grey;
     font-family: "Ageo";
+    font-weight: 900;
 }
 
 h1{
     font-family: "AgeoB";
 }
 
-.main-nav{
-    position: fixed;
-    width: 325px;
-    height: 100%;
-    background: white;
+a{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.number{
+    font-family: Roboto;
+    font-weight: 500;
 }
 
 main{
-    margin-left: 325px;
-    width: calc(100% - 325px);
+    margin-left: 350px;
+    width: calc(100% - 350px);
     height: 5000px;
     /* background: yellow; */
+}
+
+/*
+    --------------- NAV LEFT ----------------
+*/
+.main-nav{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    background: white;
+    padding: 3.5rem;
+}
+
+.main-nav .nav-list .list-group-item{
+    padding: 1rem 0;
+    border-bottom: 2px solid rgba(0,0,0,.1) !important;
+}
+.main-nav .nav-list a:last-child .list-group-item{
+    border-bottom: none !important;
+}
+
+.main-nav .nav-list a .list-group-item:hover{
+    color: #844eb8;
+    border-color: rgba(0,0,0,.2) !important;
 }
