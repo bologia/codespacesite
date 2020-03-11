@@ -24,22 +24,22 @@ main .s1{
     margin-left: auto; /* ça va à droite en fait ça */
     margin-right: -30px;
     margin-bottom: -30px;
-    -moz-transition: .8s;
-    -webkit-transition: .8s;
+    /* -moz-transition: .8s;
+    -webkit-transition: .8s; */
     position: relative;
 }
 
 .btn-home i {
     position: absolute;
     font-size: 30px;
-    top: 25px;
-    left: 25px;
+    top: 20px;
+    left: 24px;
 }
 
 /* enlever le contour qd on clique bouton */
 
-.btn-home:hover {
+/* .btn-home:hover {
     width: 125px;
     height: 125px;
-}
+} */
 

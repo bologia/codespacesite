@@ -7,6 +7,20 @@
             <h5>Nous répondons à vos besoins pour toutes vos demandes de création de site web ainsi que de dépannage informatique.</h5><br>
             <h5>Contactez nous pour plus d'informations.</h5>
         </div>
-        <button type="button" class="btn btn-info btn-home"><i class="fas fa-envelope"></i></button>
+        <button type="button" class="btn btn-info btn-home" id="test"><i class="fas fa-envelope"></i></button>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+    $("#test").hover(function(){
+        $("btn-home").animate({
+            height: '125px',
+            width: '125px'
+        });
+        $("btn-home i").animate({
+            top: '40px',
+            left: '40px'
+        });
+    }); 
+</script>
