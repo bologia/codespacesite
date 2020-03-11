@@ -1,5 +1,5 @@
 <div class="contact d-flex justify-content-between p-2" style="background: #efefef;">
-    <form class="bg-white p-5 rounded">
+    <form class="bg-white p-5">
         <div class="form-group">
             <label for="adressemail">Adresse mail</label>
             <input type="email" class="form-control" id="adressemail" placeholder="adresse@mail.com">
@@ -16,7 +16,7 @@
             <button type="submit" class="btn">Envoyer message</button>
         </div>
     </form>
-    <div class="contact-other rounded bg-white">
+    <div class="contact-other bg-white">
         <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center border-0">
                 <p class="my-0">
