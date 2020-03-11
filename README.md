@@ -4,7 +4,7 @@ color:
 // pour le moment
 White : #FFF;
 Black: #000;
-Blue : #0f1129;
+Blue : #16223f;
 
 font:
 Ageo

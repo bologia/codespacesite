@@ -39,6 +39,13 @@ main{
     /* background: yellow; */
 }
 
+.blue, strong{
+    color: #224aa8;
+}
+.blue-dark{
+    color: #16223f;
+}
+
 /*
     --------------- NAV LEFT ----------------
 */
@@ -62,6 +69,6 @@ main{
 }
 
 .main-nav .nav-list a .list-group-item:hover{
-    color: #844eb8;
+    color: #224aa8;
     border-color: rgba(0,0,0,.2) !important;
 }

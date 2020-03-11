@@ -1,0 +1,10 @@
+.about{
+    padding: 10rem 3rem;
+}
+
+.about > *:first-child{
+    width: 44%;
+}
+.about > *:last-child{
+    width: 50%;
+}

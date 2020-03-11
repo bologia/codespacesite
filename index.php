@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'/>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/services.css">
 </head>
 <body>
@@ -19,6 +20,7 @@
     <main>
 
         <?php include('includes/home.php'); ?>
+        <?php include('includes/about.php'); ?>
         <?php include('includes/services.php'); ?>
         <!-- other include ... -->
 
