@@ -1,5 +1,5 @@
 <!-- Services content -->
-<div class="services p-5">
+<div class="services p-4">
     <h1>Services</h1>
     <div class="d-flex flex-wrap justify-content-around align-items-center w-100">
 

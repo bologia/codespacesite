@@ -58,6 +58,7 @@ main .s1{
 
 .fa-chevron-circle-down {
     font-size: 30px;
+    color: white;
     -webkit-animation:arrowhome 2s infinite;
     -moz-animation:arrowhome 2s infinite;
     animation:arrowhome 2s infinite;
