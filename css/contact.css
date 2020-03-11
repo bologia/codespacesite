@@ -1,0 +1,15 @@
+.contact form, .contact-other{
+    width: 49.5%;
+}
+.contact-other{
+    /* background: #16223f; */
+}
+.contact button{
+    border: 1px solid #224aa8;
+    color: #224aa8;
+    transition: all .3s linear;
+}
+.contact button:hover{
+    background: #224aa8;
+    color: #fff;
+}
