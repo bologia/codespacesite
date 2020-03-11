@@ -2,7 +2,7 @@
     <div class="card-home card rounded-0">
         <div class="card-body text-center p-5">
             <h1>Bienvenue sur</h1>
-            <img src="./img/codespace-nobg.png" alt="Logo CodeSpace" width="80%" class="bg-white rounded"><br><br><br>
+            <img src="./img/codespacelogowhite.png" alt="Logo CodeSpace" width="80%"><br><br>
             <h5>Développeurs web, e-commerce et application.</h5><br>
             <h5>Nous répondons à vos besoins pour toutes vos demandes de création de site web ainsi que de dépannage informatique.</h5><br>
             <h5>Contactez nous pour plus d'informations.</h5>

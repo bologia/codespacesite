@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <!-- Nav left -->
@@ -22,6 +23,7 @@
         <?php include('includes/home.php'); ?>
         <?php include('includes/about.php'); ?>
         <?php include('includes/services.php'); ?>
+        <?php include('includes/contact.php'); ?>
         <!-- other include ... -->
 
     </main>
