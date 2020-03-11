@@ -76,3 +76,9 @@ main{
     color: #224aa8;
     border-color: rgba(0,0,0,.2) !important;
 }
+
+.main-nav .nav-btn{
+    border-radius: 50%;
+    background: #16223f;
+    color: white;
+}
