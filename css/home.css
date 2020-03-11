@@ -24,22 +24,34 @@ main .s1{
     margin-left: auto; /* ça va à droite en fait ça */
     margin-right: -30px;
     margin-bottom: -30px;
-    /* -moz-transition: .8s;
-    -webkit-transition: .8s; */
     position: relative;
+    -moz-transition: .8s;
+    -webkit-transition: .8s;
 }
 
-.btn-home i {
+#momo {
     position: absolute;
     font-size: 30px;
     top: 20px;
     left: 24px;
+    -moz-transition: .8s;
+    -webkit-transition: .8s;
 }
 
 /* enlever le contour qd on clique bouton */
 
-/* .btn-home:hover {
+.btn-home:hover {
     width: 125px;
     height: 125px;
-} */
+}
 
+.btn-home:hover #momo {
+    top: 28px;
+    left: 38px;
+    -webkit-animation:spin .8s;
+    -moz-animation:spin .8s;
+    animation:spin .8s;
+}
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
