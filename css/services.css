@@ -1,4 +1,16 @@
-.services-contact{
+.services {
+    background: #c6dae3;
+    height: 1000px;
+}
+
+.card-services{
+    height: 380px;
+    width: 300px;
+    border: none;
+    color: black;
+}
+
+.services-contact {
     padding: 3rem;
     background: #16223f;
     color: #ffffff;
