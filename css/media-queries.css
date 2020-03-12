@@ -1,0 +1,32 @@
+@media screen and (max-width: 1141px) {
+    .main-nav{
+        display: none !important;
+    }
+    main{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 961px) {
+    .about{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .about > * {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .about{
+        padding: 4rem 3rem;
+    }   
+}
+
+@media screen and (max-width: 541px) {
+    .about > * {
+        width: 100% !important;
+    }
+}
+

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
 </head>
 <body>
     <!-- Nav left -->
