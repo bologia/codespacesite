@@ -13,7 +13,7 @@
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
-                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-euro-sign"></i></div><br>
+                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-euro-sign mr-2"></i></div><br>
                 <h4 class="font-weight-bold">E-commerce</h4><br>
                 <p>Vous pouvez demander une boutique en ligne pour votre entreprise.</p>
                 <p>Plus de <span class="number">85</span>% des internautes achètent en ligne.</p>
