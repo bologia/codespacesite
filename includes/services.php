@@ -16,7 +16,7 @@
                 <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-euro-sign"></i></div><br>
                 <h4 class="font-weight-bold">E-commerce</h4><br>
                 <p>Vous pouvez demander une boutique en ligne pour votre entreprise.</p>
-                <p>Plus de 85% des internautes achètent en ligne.</p>
+                <p>Plus de <span class="number">85</span>% des internautes achètent en ligne.</p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
@@ -47,8 +47,8 @@
     </div>
 </div>
 <!-- Contact banner -->
-<div class="services-contact d-flex justify-content-between align-items-center text-center w-100">
+<div class="services-contact d-flex justify-content-center align-items-center text-center w-100">
     <!--<span class="h4 m-0 font-weight-bold">Phrase qui claque et qui vends</span>-->
-    <img src="./img/darkvador.png" alt="DV" width="100%">
+    <img src="./img/darkvador.png" alt="DV" width="66%">
     <!--<button class="bg-white border-0 font-weight-bold p-3">NOUS CONTACTER</button>-->
 </div>
