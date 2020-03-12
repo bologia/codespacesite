@@ -52,3 +52,16 @@ $(function() {
       return false;
     });  
 })
+
+/*
+    --------------- RESPONSIVE NAV ----------------
+*/
+
+$('.mq-nav').on('click',function(){
+    if($('.mq-nav-content').is(':hidden')){
+        $('.mq-nav').html('<i class="fas fa-times"></i>');
+    } else {
+        $('.mq-nav').html('<i class="fas fa-bars"></i>')
+    }
+    $('.mq-nav-content').fadeToggle(300);
+});

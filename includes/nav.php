@@ -20,3 +20,17 @@
         <i class="fas fa-at"></i> &nbsp; contact@codespace.com
     </div>
 </div>
+
+<div class="mq-nav text-white">
+    <i class="fas fa-bars"></i>
+</div>
+
+<div class="mq-nav-content p-5">
+    <ul class="list-group list-group-flush font-weight-bold">
+        <a href="#"><li class="list-group-item">Accueil</li></a>
+        <a href="#"><li class="list-group-item">Qui sommes-nous ?</li></a>
+        <a href="#"><li class="list-group-item">Services</li></a>
+        <a href="#"><li class="list-group-item">Liste des projets</li></a>
+        <a href="#"><li class="list-group-item">Contact</li></a>
+    </ul>
+</div>

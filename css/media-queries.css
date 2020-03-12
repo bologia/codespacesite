@@ -6,6 +6,11 @@
         margin-left: 0;
         width: 100%;
     }
+    .mq-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 961px) {

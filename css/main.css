@@ -93,3 +93,35 @@ main{
 .main-nav .nav-btn i{
     margin-top: .3rem;
 }
+
+.mq-nav{
+    display: none;
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #224aa8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+.mq-nav i{
+    margin-top: 3px;
+}
+.mq-nav-content{
+    display: none;
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    background: #224aa8;
+}
+.mq-nav-content .list-group-item{
+    background: none !important;
+    border-bottom: 2px solid rgba(255,255,255,.5) !important;
+    color: #fff;
+}
+.mq-nav-content .list-group-item:hover{
+    border-bottom: 2px solid rgba(255,255,255,1) !important;
+}
