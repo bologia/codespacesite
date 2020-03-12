@@ -12,6 +12,9 @@
             <a href="#"><li class="list-group-item">Contact</li></a>
         </ul>
     </div>
+    <div class="text-center">
+        <button class="nav-btn btn"><i class="fas fa-arrow-left"></i></button>
+    </div>
     <div>
         <i class="fas fa-phone"></i> &nbsp; <span class="number">06.30.30.30.30</span><br>
         <i class="fas fa-at"></i> &nbsp; contact@codespace.com

@@ -1,4 +1,4 @@
-<div class="contact d-flex justify-content-between p-2" style="background: #efefef;">
+<div class="contact d-flex justify-content-between p-4" style="background: #efefef;">
     <form class="bg-white p-5">
         <div class="form-group">
             <label for="adressemail">Adresse mail</label>

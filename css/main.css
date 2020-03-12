@@ -40,6 +40,7 @@ main{
     margin-left: 300px;
     width: calc(100% - 300px);
     height: 5000px;
+    transition: all .8s linear;
     /* background: yellow; */
 }
 
@@ -48,6 +49,10 @@ main{
 }
 .blue-dark{
     color: #16223f;
+}
+
+.card{
+    position: initial;
 }
 
 /*
@@ -62,6 +67,8 @@ main{
     -webkit-box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.1);
        -moz-box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.1);
             box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.1);
+    transition: all .8s linear;
+    opacity: 1;
 }
 
 .main-nav .nav-list .list-group-item{
@@ -75,4 +82,15 @@ main{
 .main-nav .nav-list a .list-group-item:hover{
     color: #224aa8;
     border-color: rgba(0,0,0,.2) !important;
+}
+
+.main-nav .nav-btn{
+    border-radius: 50%;
+    background: #16223f;
+    color: white;
+    transition: all .8s linear;
+    z-index: 999999;
+}
+.main-nav .nav-btn i{
+    margin-top: .3rem;
 }
