@@ -28,15 +28,34 @@
         width: 100%;
         margin: 1rem 0;
     }
+    #darkvador{
+        width: 100%;
+    }
+    .footerlogocodespace{
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 721px) {
     .about{
         padding: 4rem 3rem;
-    }   
+    }
+    .footerlogocodespace{
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 541px) {
+    .card-home{
+        height: 480px;
+        width: 300px;
+    }
+    .h1-home{
+        font-size: 30px;
+    }
+    .h5-home{
+        font-size: 16px;
+    }
     .about > * {
         width: 100% !important;
     }
@@ -45,6 +64,10 @@
     }
     .contact form{
         /* padding: 2.5rem !important; */
+    }
+    .services-contact {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
     }
 }
 

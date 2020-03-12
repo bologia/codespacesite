@@ -65,3 +65,67 @@ $(function() {
       return false;
     });  
 })
+
+/*
+    --------------- MENU TO SECTIONS ----------------
+*/
+
+$(function() {
+    $('#btn-scroll-accueil').click(function() {
+      $('html,body').animate({scrollTop:$(".s1").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-quisommesnous').click(function() {
+      $('html,body').animate({scrollTop:$(".about").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-services').click(function() {
+      $('html,body').animate({scrollTop:$(".services").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-contact').click(function() {
+      $('html,body').animate({scrollTop:$(".contact").offset().top}, 1000);
+      return false;
+    });  
+})
+
+/*
+    --------------- MENU TO SECTIONS RESPONSIVE ----------------
+*/
+
+$(function() {
+    $('#btn-scroll-accueil2').click(function() {
+      $('html,body').animate({scrollTop:$(".s1").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-quisommesnous2').click(function() {
+      $('html,body').animate({scrollTop:$(".about").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-services2').click(function() {
+      $('html,body').animate({scrollTop:$(".services").offset().top}, 1000);
+      return false;
+    });  
+})
+
+$(function() {
+    $('#btn-scroll-contact2').click(function() {
+      $('html,body').animate({scrollTop:$(".contact").offset().top}, 1000);
+      return false;
+    });  
+})

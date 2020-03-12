@@ -49,6 +49,6 @@
 <!-- Contact banner -->
 <div class="services-contact d-flex justify-content-center align-items-center text-center w-100">
     <!--<span class="h4 m-0 font-weight-bold">Phrase qui claque et qui vends</span>-->
-    <img src="./img/darkvador.png" alt="DV" width="66%">
+    <img id="darkvador" src="./img/darkvador.png" alt="DV" width="66%">
     <!--<button class="bg-white border-0 font-weight-bold p-3">NOUS CONTACTER</button>-->
 </div>
