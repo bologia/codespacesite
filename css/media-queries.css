@@ -40,5 +40,11 @@
     .about > * {
         width: 100% !important;
     }
+    .contact{
+        padding: .25rem !important;
+    }
+    .contact form{
+        /* padding: 2.5rem !important; */
+    }
 }
 
