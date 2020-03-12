@@ -21,6 +21,13 @@
     .about > * {  /* la fléche c que les enfants de about */
         width: 75% !important;
     }
+    .contact{
+        flex-wrap: wrap;
+    }
+    .contact form, .contact-other{
+        width: 100%;
+        margin: 1rem 0;
+    }
 }
 
 @media screen and (max-width: 721px) {
@@ -32,6 +39,12 @@
 @media screen and (max-width: 541px) {
     .about > * {
         width: 100% !important;
+    }
+    .contact{
+        padding: .25rem !important;
+    }
+    .contact form{
+        /* padding: 2.5rem !important; */
     }
 }
 
