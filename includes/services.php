@@ -13,32 +13,32 @@
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
-                <img src="./img/codespacelogo.png" alt="Logo CodeSpace" width="60%"><br><br>
-                <p>Développeurs web, e-commerce et application.</p>
+                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-desktop"></i></div><br>
+                <h4 class="font-weight-bold">Développeurs web</h4><br>
                 <p>Nous e site web ainsi que de dépannage informatique.</p>
                 <p>Contactez nous pour plus d'informations.</p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
-                <img src="./img/codespacelogo.png" alt="Logo CodeSpace" width="60%"><br><br>
-                <p>Développeurs web, e-commerce et application.</p>
+                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-desktop"></i></div><br>
+                <h4 class="font-weight-bold">Développeurs web</h4><br>
                 <p>Nous e site web ainsi que de dépannage informatique.</p>
                 <p>Contactez nous pour plus d'informations.</p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
-                <img src="./img/codespacelogo.png" alt="Logo CodeSpace" width="60%"><br><br>
-                <p>Développeurs web, e-commerce et application.</p>
+                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-desktop"></i></div><br>
+                <h4 class="font-weight-bold">Développeurs web</h4><br>
                 <p>Nous e site web ainsi que de dépannage informatique.</p>
                 <p>Contactez nous pour plus d'informations.</p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
-                <img src="./img/codespacelogo.png" alt="Logo CodeSpace" width="60%"><br><br>
-                <p>Développeurs web, e-commerce et application.</p>
+                <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-desktop"></i></div><br>
+                <h4 class="font-weight-bold">Développeurs web</h4><br>
                 <p>Nous e site web ainsi que de dépannage informatique.</p>
                 <p>Contactez nous pour plus d'informations.</p>
             </div> 
