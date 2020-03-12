@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <!-- Nav left -->
@@ -24,6 +25,7 @@
         <?php include('includes/about.php'); ?>
         <?php include('includes/services.php'); ?>
         <?php include('includes/contact.php'); ?>
+        <?php include('includes/footer.php'); ?>
         <!-- other include ... -->
     </main>
     

@@ -1,0 +1,12 @@
+.footer {
+    padding: 1rem;
+    background: rgb(49, 49, 49);
+    color: #ffffff;
+    /* margin: 7.5rem 0; */
+}
+
+.fa-chevron-circle-up {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 2%!important;
+}

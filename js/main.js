@@ -1,3 +1,7 @@
+/*
+    --------------- NAV LEFT ANIMATION ----------------
+*/
+
 $('.nav-btn').on('click', function() {
     var main = $('.main-nav');
     if(main.css('margin-left') == "0px"){
@@ -15,3 +19,25 @@ $('.nav-btn').on('click', function() {
         $('main').css('margin-left','300px');
     }
 });
+
+/*
+    --------------- BACK TO TOP ----------------
+*/
+
+$(function() {
+    $('#back-to-top').click(function() {
+      $('html').animate({scrollTop:0}, 1000);
+      return false;
+    });
+});
+
+/*
+    --------------- LETTER TO CONTACT ----------------
+*/
+
+$(function() {
+    $('#momo').click(function() {
+      $('html,body').animate({scrollTop:$(".contact").offset().top}, 1000);
+      return false;
+    });  
+})

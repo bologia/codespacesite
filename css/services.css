@@ -12,7 +12,7 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: #0f1129;
+    background: #16223f;
     margin: auto;
 }
 
@@ -25,5 +25,5 @@
     padding: 3rem;
     background: #16223f;
     color: #ffffff;
-    margin: 7.5rem 0;
+    /* margin: 7.5rem 0; */
 }
