@@ -36,8 +36,19 @@ $(function() {
 */
 
 $(function() {
-    $('#momo').click(function() {
+    $('.btn-home').click(function() {
       $('html,body').animate({scrollTop:$(".contact").offset().top}, 1000);
+      return false;
+    });  
+})
+
+/*
+    --------------- ARROW TO ABOUT ----------------
+*/
+
+$(function() {
+    $('.fa-chevron-circle-down').click(function() {
+      $('html,body').animate({scrollTop:$(".about").offset().top}, 1000);
       return false;
     });  
 })
