@@ -53,7 +53,7 @@
             <li class="list-group-item d-flex justify-content-between align-items-center border-0">
                 <p class="my-0">
                     <i class="fas fa-globe mr-2"></i>
-                    Site internet
+                    www.codespace-<span class="number">08</span>.fr
                 </p>
             </li>
         </ul>
