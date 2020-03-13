@@ -1,16 +1,16 @@
 <div class="contact d-flex justify-content-between p-4" style="background: #efefef;">
-    <form class="bg-white p-5">
+    <form class="bg-white p-5" action="./sending.php" method="post">
         <div class="form-group">
             <label for="adressemail">Adresse mail</label>
-            <input type="email" class="form-control" id="adressemail" placeholder="adresse@mail.com">
+            <input type="email" class="form-control" id="adressemail" name="mail" placeholder="adresse@mail.com">
         </div>
         <div class="form-group">
             <label for="subject">Sujet</label>
-            <input type="text" class="form-control" id="subject" placeholder="Demande d'informations">    
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Demande d'informations">    
         </div>
         <div class="form-group">
             <label for="message">Votre message</label>
-            <textarea class="form-control" id="message" placeholder="votre message" rows="5"></textarea>
+            <textarea class="form-control" id="message" name="message" placeholder="votre message" rows="5"></textarea>
         </div>
         <div class="text-center">
             <button type="submit" class="btn">Envoyer message</button>
