@@ -8,15 +8,15 @@
                 <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-desktop"></i></div><br>
                 <h4 class="font-weight-bold">Création de site web</h4><br>
                 <p>Nous développons votre site internet sur mesure selon vos envies.</p>
-                <p>Avec une optimisation sur tablette et smartphone.</p>
+                <p>Avec bien sûr une optimisation sur tablette et smartphone.</p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
                 <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-euro-sign mr-2"></i></div><br>
                 <h4 class="font-weight-bold">E-commerce</h4><br>
-                <p>Vous pouvez demander une boutique en ligne pour votre entreprise.</p>
-                <p>Plus de <span class="number">85</span>% des internautes achètent en ligne.</p>
+                <p>Vous pouvez demander une boutique en ligne pour n'importe quel type d'activité (restauration, immobilier, commerce...).</p>
+                <!-- <p>Plus de <span class="number">85</span>% des internautes achètent en ligne.</p> -->
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
@@ -31,14 +31,14 @@
             <div class="card-body text-center">
                 <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-wrench"></i></div><br>
                 <h4 class="font-weight-bold">Dépannage web</h4><br>
-                <p>Assitance de tous les problèmes liés à votre plateforme informatique.</p>
+                <p>Assitance de tous les problèmes liés à votre plateforme informatique ainsi que toutes vérifications liées à la sécurité.</p>
                 <p></p>
             </div> 
         </div>
         <div class="card-services card shadow rounded-0 my-3">
             <div class="card-body text-center">
                 <div class="circle-services d-flex align-items-center justify-content-center"><i id="icons-services" class="fas fa-mobile-alt"></i></div><br>
-                <h4 class="font-weight-bold">Application mobile peut être bientôt</h4><br>
+                <h4 class="font-weight-bold">Application</h4><br>
                 <p>Rendez votre activité encore plus accessible avec une application simple.</p>
                 <p>Le marché des applications a explosé ces dernières années.</p>
             </div> 
