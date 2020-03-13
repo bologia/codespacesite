@@ -16,6 +16,13 @@
             <button type="submit" class="btn">Envoyer message</button>
         </div>
     </form>
+
+    <?php
+    //  if(isset($success)) {
+    //     echo '<font color="green">'.$success.'</font>';
+    //  }
+     ?>
+
     <div class="contact-other bg-white">
         <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center border-0">

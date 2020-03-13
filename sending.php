@@ -30,10 +30,13 @@ $message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
 $message.= $passage_ligne.$message_txt.$passage_ligne;
 $message.= $passage_ligne."--".$boundary_alt."--".$passage_ligne;
 
-if(mail($mail,$subject,$message,$header)){
-    echo 'ok';
+if(mail($mail,$subject,$message,$header)) {
+    header('Location: index.php');
+    exit();
+// $success = "Votre message a été envoyé avec succès. Une réponse de notre part vous sera transmis rapidement.";
 } else {
     echo 'nok';
 }
+
 
 
