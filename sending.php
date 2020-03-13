@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $mail = 'teddy.couaillier@gmail.com';
 
@@ -31,11 +32,13 @@ $message.= $passage_ligne.$message_txt.$passage_ligne;
 $message.= $passage_ligne."--".$boundary_alt."--".$passage_ligne;
 
 if(mail($mail,$subject,$message,$header)) {
+    $_SESSION["sending"] = true;
     header('Location: index.php');
     exit();
-// $success = "Votre message a été envoyé avec succès. Une réponse de notre part vous sera transmis rapidement.";
 } else {
-    echo 'nok';
+    $_SESSION["notsending"] = true;
+    header('Location: index.php');
+    exit();
 }
 
 

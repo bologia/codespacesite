@@ -129,3 +129,12 @@ $(function() {
       return false;
     });  
 })
+
+
+/*
+    --------------- SENDING MESSAGE HIDE ----------------
+*/
+function hideMessage(curr){
+    const mess = $(curr).parent().parent();
+    $(mess).fadeOut();
+}

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,7 +22,31 @@
 
     <!-- Main content - right -->
     <main>
-
+        <?php 
+            if(isset($_SESSION['sending'])){
+                echo '
+                <div class="success-mail bg-success px-5 py-4 text-white m-2">
+                    Votre message a été envoyé avec succès.
+                    <br>Une réponse de notre part vous sera transmis rapidement.
+                    <p class="text-center">
+                        <i class="fas fa-times-circle mt-2" onclick="hideMessage(this)"></i>    
+                    </p>
+                </div>';
+                unset($_SESSION['sending']);
+            }
+            if(isset($_SESSION['notsending'])){
+                echo '
+                <div class="success-mail bg-danger px-5 py-4 text-white m-2">
+                    Une erreur s\'est produite.
+                    <br>Veuillez nous excusez pour la gêne occassionnée.
+                    <p class="text-center">
+                        <i class="fas fa-times-circle mt-2" onclick="hideMessage(this)"></i>    
+                    </p>
+                </div>';
+                unset($_SESSION['notsending']);
+            } 
+        ?>
+    
         <?php include('includes/home.php'); ?>
         <?php include('includes/about.php'); ?>
         <?php include('includes/services.php'); ?>
