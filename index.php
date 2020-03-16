@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./img/cs-nobg.png" />
-    <title>CodeSpace - Développeurs web, e-commerce et application</title>
+    <title>CodeSpace - Développeurs web, créateurs de sites et d'applications</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'/>
     <link rel="stylesheet" href="./css/main.css">
@@ -27,7 +27,7 @@
                 echo '
                 <div class="success-mail bg-success px-5 py-4 text-white m-2">
                     Votre message a été envoyé avec succès.
-                    <br>Une réponse de notre part vous sera transmis rapidement.
+                    <br>Une réponse de notre part vous sera transmise rapidement.
                     <p class="text-center">
                         <i class="fas fa-times-circle mt-2" onclick="hideMessage(this)"></i>    
                     </p>
@@ -38,7 +38,7 @@
                 echo '
                 <div class="success-mail bg-danger px-5 py-4 text-white m-2">
                     Une erreur s\'est produite.
-                    <br>Veuillez nous excusez pour la gêne occassionnée.
+                    <br>Veuillez nous excuser pour la gêne occassionnée.
                     <p class="text-center">
                         <i class="fas fa-times-circle mt-2" onclick="hideMessage(this)"></i>    
                     </p>

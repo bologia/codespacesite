@@ -65,10 +65,10 @@
             </li>
         </ul>
         <hr class="mx-3">
-        <p class="px-3">
+        <p style="font-size: 15px" class="px-3">
             <b class="h4">EQUIPE</b><br><br>
-            GUSBERTI Gianni - <i>Bac+<span class="number">3</span> Développement web et web mobile</i><br><br>
-            COUAILLIER Teddy - <i>Bac+<span class="number">3</span> Développement web et web mobile</i>
+            GUSBERTI Gianni - <i>Licence en Développement web et web mobile</i><br><br>
+            COUAILLIER Teddy - <i>Licence en Développement web et web mobile</i>
         </p>
     </div>
 </div>
