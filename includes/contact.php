@@ -1,4 +1,4 @@
-<div class="contact d-flex justify-content-between p-4" style="background: #efefef;">
+<div class="contact d-flex justify-content-between p-4 py-5" style="background: #efefef;">
     <form class="bg-white p-5" action="./sending.php" method="post">
         <div class="form-group">
             <label for="adressemail">Adresse mail</label>
@@ -16,12 +16,6 @@
             <button type="submit" class="btn">Envoyer message</button>
         </div>
     </form>
-
-    <?php
-    //  if(isset($success)) {
-    //     echo '<font color="green">'.$success.'</font>';
-    //  }
-     ?>
 
     <div class="contact-other bg-white">
         <ul class="list-group">

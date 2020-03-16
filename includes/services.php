@@ -1,6 +1,6 @@
 <!-- Services content -->
-<div class="services px-4 pb-3">
-    <h2 class="ml-3 mb-4"><b>Nos <span class="blue">Services</span></b></h2>
+<div class="services px-4 pb-5">
+    <h2 class="ml-5 mb-4"><b>Nos <span class="blue">Services</span></b></h2>
     <div class="d-flex flex-wrap justify-content-around align-items-center w-100">
 
         <div class="card-services card shadow rounded-0 my-3">
